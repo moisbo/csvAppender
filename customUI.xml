@@ -1,0 +1,14 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+<ribbon startFromScratch="false">
+<tabs>
+<tab id="tabSoilMoisture" label="Soil Moisture CSV">
+<group id="groupImportData" label="Import CSV">
+<button id="buttonImportCSV" imageMso="ImportTextFile" label="Merge CSVs" size="large" onAction="ModuleImport.LoadFile" />
+</group>
+<group id="clearFile" label="Clear Data">
+<button id="buttonClearSheet" imageMso="Delete" label="Clear All Sheets" size="large" onAction="ModuleImport.DeleteSheets"/>
+</group>
+</tab>
+</tabs>
+</ribbon>
+</customUI>
